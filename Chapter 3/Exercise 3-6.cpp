@@ -1,27 +1,26 @@
 #include<stdio.h>
 #include<ctype.h>
 void itob(__int8, char[], __int8);
-void itoa(__int8, char[]);
+void itoa(__int8, char[], __int8);
 void reverse(char[]);
 int getLen(char[]);
 int toChar(int);
 int main() {
-	/*Exercise 3-4
-	In a two’s complement number representation, our version of itoa does not handle the largest negative number,
-	 that is, the value of n equal to −(2wordsize−1). Explain why not. Modify it to print that value correctly,
-	  regardless of the machine on which it runs.
+	/*Exercise 3-6
+	Write a version of itoa that accepts three arguments instead of two. The third argument is a minimum field width;
+	the converted number must be padded with blanks on the left if necessary to make it wide enough.
 	*/
 	__int8 n;
-	char a[8];
-	n = 0; itoa(n, a); printf("%s\n", a);
-	n = 1; itoa(n, a); printf("%s\n", a);
-	n = -1; itoa(n, a); printf("%s\n", a);
-	n = 10; itoa(n, a); printf("%s\n", a);
-	n = -10; itoa(n, a); printf("%s\n", a);
-	n = 100; itoa(n, a); printf("%s\n", a);
-	n = -100; itoa(n, a); printf("%s\n", a);
-	n = 127; itoa(n, a); printf("%s\n", a);
-	n = -128; itoa(n, a); printf("%s\n", a);
+	char a[9];
+	n = 0; itoa(n, a,8); printf("%s\n", a);
+	n = 1; itoa(n, a,8); printf("%s\n", a);
+	n = -1; itoa(n, a,8); printf("%s\n", a);
+	n = 10; itoa(n, a,8); printf("%s\n", a);
+	n = -10; itoa(n, a,8); printf("%s\n", a);
+	n = 100; itoa(n, a,8); printf("%s\n", a);
+	n = -100; itoa(n, a,8); printf("%s\n", a);
+	n = 127; itoa(n, a,8); printf("%s\n", a);
+	n = -128; itoa(n, a,8); printf("%s\n", a);
 }
 void itob(__int8 n, char a[], __int8 b) {
 	__int8 sign = n, i = 0;
@@ -32,8 +31,9 @@ void itob(__int8 n, char a[], __int8 b) {
 		a[i++] = '-';
 	a[i] = '\0';
 	reverse(a);
+
 }
-void itoa(__int8 n, char a[]) {
+void itoa(__int8 n, char a[],__int8 length) {
 	const __int8  b = 10;
 	__int8 sign = n, i = 0;
 	do {
@@ -41,6 +41,9 @@ void itoa(__int8 n, char a[]) {
 	} while ((n=n/b) != 0);
 	if (sign < 0)
 		a[i++] = '-';
+	while (i < length) {
+		a[i++] = ' ';
+	}
 	a[i] = '\0';
 	reverse(a);
 }

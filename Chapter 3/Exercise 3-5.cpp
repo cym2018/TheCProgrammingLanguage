@@ -6,22 +6,21 @@ void reverse(char[]);
 int getLen(char[]);
 int toChar(int);
 int main() {
-	/*Exercise 3-4
-	In a two’s complement number representation, our version of itoa does not handle the largest negative number,
-	 that is, the value of n equal to −(2wordsize−1). Explain why not. Modify it to print that value correctly,
-	  regardless of the machine on which it runs.
+	/*Exercise 3-5
+	Write the function itob(n,s,b) that converts the integer n into a base b character representation in the string s.
+	In particular, itob(n,s,16) formats n as a hexadecimal integer in s.
 	*/
 	__int8 n;
 	char a[8];
-	n = 0; itoa(n, a); printf("%s\n", a);
-	n = 1; itoa(n, a); printf("%s\n", a);
-	n = -1; itoa(n, a); printf("%s\n", a);
-	n = 10; itoa(n, a); printf("%s\n", a);
-	n = -10; itoa(n, a); printf("%s\n", a);
-	n = 100; itoa(n, a); printf("%s\n", a);
-	n = -100; itoa(n, a); printf("%s\n", a);
-	n = 127; itoa(n, a); printf("%s\n", a);
-	n = -128; itoa(n, a); printf("%s\n", a);
+	n = 0; itob(n, a,16); printf("%s\n", a);
+	n = 1; itob(n, a,16); printf("%s\n", a);
+	n = -1; itob(n, a,16); printf("%s\n", a);
+	n = 10; itob(n, a,16); printf("%s\n", a);
+	n = -10; itob(n, a,16); printf("%s\n", a);
+	n = 100; itob(n, a,16); printf("%s\n", a);
+	n = -100; itob(n, a,16); printf("%s\n", a);
+	n = 127; itob(n, a,16); printf("%s\n", a);
+	n = -128; itob(n, a,16); printf("%s\n", a);
 }
 void itob(__int8 n, char a[], __int8 b) {
 	__int8 sign = n, i = 0;
