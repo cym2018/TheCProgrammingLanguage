@@ -3,6 +3,7 @@
 int main();
 int main() {
 	// Exercise 1-10
+	// 写一个函数将输入输出,将tab转换为\t backspacr转为\b \转为\\
 	// Write a program to copy its input to its output, replacing each tab by \t, each backspace by \b, and each backslash by \\. 
 	// This makes tabs and backspaces visible in an unambiguous way.
 	// Exercise 1-11

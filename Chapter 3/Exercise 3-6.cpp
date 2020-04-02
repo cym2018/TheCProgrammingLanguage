@@ -7,6 +7,7 @@ int getLen(char[]);
 int toChar(int);
 int main() {
 	/*Exercise 3-6
+	编写int转char 三个参数的版本,第三个参数指定字符串最小长度
 	Write a version of itoa that accepts three arguments instead of two. The third argument is a minimum field width;
 	the converted number must be padded with blanks on the left if necessary to make it wide enough.
 	*/

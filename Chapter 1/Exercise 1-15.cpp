@@ -7,6 +7,7 @@ double celToFah(double);
 double fahToCel(double);
 int main() {
 	// Exercise 1-15
+	// 重写温度转换程序,使用函数转换温度
 	// Rewrite the temperature conversion program of Section 1.2 to use a function for conversion.
 	printf("%12s%12s\n", "fahrenheit", "celsius");
 	for (double fah = LOWER; fah <= UPPER; fah += STEP) {

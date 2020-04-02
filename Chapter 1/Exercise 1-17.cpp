@@ -5,6 +5,7 @@ int getline(char[], int);
 int main()
 {
 	// Exercise 1-17
+	// 写一个程序输出输入中所有长度大于80的行
 	// Write a program to print all input lines that are longer than 80 characters.
 	int len;
 	int max;

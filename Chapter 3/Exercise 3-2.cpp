@@ -4,6 +4,7 @@ void disescape(char[], char[]);
 int main()
 {
 	/*Exercise 3-2
+	写一个函数将\n或者\t转换为换行符和制表符
 	Write a function escape(s,t) that converts characters like newline and tab
 	into visible escape sequences like \n and \t as it copies the string t to s.
 	Use a switch. Write a function for the other direction as well, converting

@@ -5,6 +5,7 @@
 int main();
 int main() {
 	// Exercise 1-12
+	// 将输入输出,每个输入的单词占一行
 	// Write a program that prints its input one word per line.
 	int c, state, i;
 	i = 0;

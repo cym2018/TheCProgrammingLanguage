@@ -5,6 +5,7 @@
 int main();
 int main() {
 	// Exercise 1-3
+	// 将摄氏度转换为华氏度
 	// Modify the temperature conversion program to print a heading above the table.
 	// Exercise 1-4
 	// Write a program to print the corresponding Celsius to Fahrenheit table.

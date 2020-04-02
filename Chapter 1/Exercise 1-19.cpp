@@ -9,6 +9,7 @@ int getLen(char[]);
 int main()
 {
 	// Exercise 1-19
+	// 写一个reverse(s)函数反转输入的字符顺序
 	// Write a function reverse(s) that reverses the character
 	// string s. Use it to write a program that reverses its input a line at a time.
 	char data[MAXSIZE], buffer[MAXSIZE];

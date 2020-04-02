@@ -3,6 +3,7 @@ void squeeze(char[], char[]);
 int main()
 {
 	/*Exercise 2-4
+	写另一个版本的squeeze(s1,s2),删除s2中的每个s1
 	Write an alternate version of squeeze(s1,s2) that deletes each character in s1
 	that matches any character in the string s2.
 	*/

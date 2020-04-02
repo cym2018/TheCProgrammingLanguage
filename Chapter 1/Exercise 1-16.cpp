@@ -6,6 +6,7 @@ void copy(char[], char[]);
 int main()
 {
 	// Exercise 1-16
+	// 重写最长行函数,使他可以统计任意长度的行,并且输出尽可能多的内容
 	// Revise the main routine of the longest-line program so it will
 	// correctly print the length of arbitrarily long input lines, and as much as possible of the text.
 	int len;

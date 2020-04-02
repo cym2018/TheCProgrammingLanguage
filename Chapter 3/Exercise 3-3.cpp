@@ -3,6 +3,7 @@ void expand(char[], char[]);
 int main()
 {
 	/*Exercise 3-3
+	写一个函数解释字符串s1 将a-z转换成abc...xyz保存在s2中,允许字母和数字,允许处理类似于a-b-c和a-z0-9和-a-z,将开头或结尾的- 原样输出
 	Write a function expand(s1,s2) that expands shorthand notations like a-z in
 	the string s1 into the equivalent complete list abc...xyz in s2. Allow for
 	letters of either case and digits, and be prepared to handle cases like a-b-c

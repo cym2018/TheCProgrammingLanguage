@@ -3,6 +3,7 @@
 int main()
 {
 	/*Exercise 2-2
+	写一个等价的循环不使用 && 或 ||
 	Write a loop equivalent to the for loop above without using && or ||.
 	*/
 	int i = 0, c, lim = MAXSIZE;

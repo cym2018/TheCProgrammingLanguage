@@ -4,6 +4,7 @@ int htoi(char[]);
 int main()
 {
 	/*Exercise 2-3
+	写一个函数htoi(s),将string类型的数字转换成int值,允许输入0-9 a-f A-F
 	Write the function htoi(s), which converts a string of hexadecimal digits
 	(including an optional 0x or 0X) into its equivalent integer value. The
 	allowable digits are 0 through 9, a through f, and A through F.

@@ -5,6 +5,7 @@ int main();
 int main()
 {
 	/*Exercise 2-1
+	写一个程序输出最大最小char double short int long
 	Write a program to determine the ranges of char, short, int, and long variables,
 	both signed and unsigned, by printing appropriate values from standard headers
 	and by direct computation. Harder if you compute them: determine the ranges

@@ -8,6 +8,7 @@ void output(int[]);
 int maxNumber(int[]);
 int main() {
 	// Exercise 1-13
+	// 输出每个输入单词的长度统计表,纵向很容易,横向更有挑战性
 	// Write a program to print a histogram of the lengths of words in its input. 
 	// It is easy to draw the histogram with the bars horizontal; a vertical orientation is more challenging.
 	int data[MAXSIZE];

@@ -10,6 +10,7 @@ void entab(char[]);
 int main()
 {
 	// Exercise 1-21
+	// 写一个函数正确的将空格替换为制表符,并保证显示没有变化,当空格和制表符显示效果一致时应该选择哪一种?
 	// Write a program entab that replaces strings of blanks by the minimum number of
 	// tabs and blanks to achieve the same spacing. Use the same tab stops as for detab.
 	// When either a tab or a single blank would suffice to reach a tab stop, which should

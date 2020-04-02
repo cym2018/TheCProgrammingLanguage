@@ -7,6 +7,7 @@ int getLen(char[]);
 int toChar(int);
 int main() {
 	/*Exercise 3-5
+	编写将十进制数转换为n进制数字符串的函数
 	Write the function itob(n,s,b) that converts the integer n into a base b character representation in the string s.
 	In particular, itob(n,s,16) formats n as a hexadecimal integer in s.
 	*/

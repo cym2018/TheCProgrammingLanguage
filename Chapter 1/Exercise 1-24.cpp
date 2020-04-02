@@ -11,6 +11,7 @@ bool removeComment(char[]);
 int main()
 {
 	/*Exercise 1-24
+	写一个程序检查C语言中的所有括号,注释,引用是否匹配
 	Write a program to check a C program for rudimentary syntax errors like unbalanced
 	parentheses, brackets and braces. Don’t forget about quotes, both single and double,
 	escape sequences, and comments. (This program is hard if you do it in full generality.)

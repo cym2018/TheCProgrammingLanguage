@@ -4,6 +4,7 @@ void showInBinary(int);
 int main()
 {
 	/*Exercise 2-6
+	写一个函数setbits(x,p,n,y),将x最右侧的n位替换为y右侧的n位,不改变其他位
 	Write a function setbits(x,p,n,y) that returns x with the n bits that begin at position
 	p set to the rightmost n bits of y, leaving the other bits unchanged.
 	*/

@@ -2,6 +2,7 @@
 int main();
 int main() {
 	// Exercise 1-8
+	// 写一个程序统计tab 空格 换行符的个数
 	// Write a program to count blanks, tabs, and newlines.
 	int input;
 	int blanksNumber, tabsNumber, newlinesNumber;

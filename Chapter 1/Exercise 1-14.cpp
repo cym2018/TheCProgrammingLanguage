@@ -8,6 +8,7 @@ void output(int[]);
 int maxNumber(int[]);
 int main() {
 	// Exercise 1-14
+	// 写一个函数输出不同字符的输入频率
 	// Write a program to print a histogram of the frequencies of different characters in its input.
 	int data[MAXSIZE];
 	input(data);

@@ -5,6 +5,7 @@
 int main();
 int main() {
 	// Exercise 1-9
+	// 写一个程序,将输入复制到输出,将多个连续的空格转换为单个空格
 	// Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank.
 	char input[MAXSIZE], c;
 	int i, state;

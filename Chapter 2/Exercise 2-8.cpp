@@ -6,6 +6,7 @@ void showInBinary(unsigned);
 int main()
 {
 	/*Exercise 2-8
+	写一个函数,将x最右侧的n位循环转移到左侧
 	Write a function rightrot(x,n) that returns the value of the integer x
 	rotated to the right by n bit positions.
 	*/

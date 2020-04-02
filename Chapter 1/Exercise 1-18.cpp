@@ -7,6 +7,7 @@ int main();
 int main()
 {
 	// Exercise 1-17
+	// 写一个函数移除每一行末的空格或制表符,删除完全空白的行
 	// Write a program to remove trailing blanks and tabs from each line of input, and to delete entirely blank lines.
 	char data[MAXSIZE], buffer[MAXSIZE];
 	int input, dataLen, bufferLen, state;

@@ -3,6 +3,7 @@ void lower(char[]);
 int main()
 {
 	/*Exercise 2-10
+	重写lower函数,将字母转换为小写,不使用任何if-else
 	Rewrite the function lower, which converts upper case letters
 	to lower case, with a conditional expression instead of if-else.
 	*/

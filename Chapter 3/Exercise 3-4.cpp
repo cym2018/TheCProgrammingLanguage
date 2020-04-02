@@ -7,6 +7,7 @@ int getLen(char[]);
 int toChar(int);
 int main() {
 	/*Exercise 3-4
+	二进制补码表示中,我们的版本没有处理最大的复数,解释为什么,修改它使它可以在任何平台上输出那个数值
 	In a two’s complement number representation, our version of itoa does not handle the largest negative number,
 	 that is, the value of n equal to −(2wordsize−1). Explain why not. Modify it to print that value correctly,
 	  regardless of the machine on which it runs.
